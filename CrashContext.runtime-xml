@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>060A37504F5E9CB03BB7C19DA10C8805</ExecutionGuid>
+		<CrashGUID>UECC-Windows-B48A05BF4736F2DF52AD4AAB55061D5B_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Crash</CrashType>
+		<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000000000000004c</ErrorMessage>
+		<CrashReporterMessage />
+		<ProcessId>32564</ProcessId>
+		<SecondsSinceStart>78</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Pal</GameName>
+		<ExecutableName>Palworld-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.1.1-0+++UE5+Release-5.1</EngineVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.1-CL-0</BuildVersion>
+		<Symbols>**UE5*Release-5.1-CL-0-Win64-Shipping</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Program Files (x86)/Steam/steamapps/common/Palworld/Pal/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files (x86)/Steam/steamapps/common/Palworld/</RootDir>
+		<MachineId>F839108142337F059D73B0AD176887C3</MachineId>
+		<LoginId>f839108142337f059d73b0ad176887c3</LoginId>
+		<HostName>DENRANGON-OVER</HostName>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription>
+by [User_Name_Here]</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (24H2) [10.0.26100.6584]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>34111545344</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>36259028992</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+		<CallStack>Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+UE4SS
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+UE4SS
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+UE4SS
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+Palworld_Win64_Shipping
+kernel32
+ntdll</CallStack>
+		<PCallStack>Palworld-Win64-Shipping 0x00007ff6f30b0000 + 323d559 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 4c61095 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3164da9 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 32337f5 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 323500f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 323b0fd Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3235f08 UE4SS 0x00007ffc33cf0000 + 90df02 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3232a96 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 323b97b Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3235f08 UE4SS 0x00007ffc33cf0000 + 90df02 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3235e65 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3164da9 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3235d1d UE4SS 0x00007ffc33cf0000 + 90dc99 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 4ad7c62 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 54019a3 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 4fc463e Palworld-Win64-Shipping 0x00007ff6f30b0000 + 4e397cc Palworld-Win64-Shipping 0x00007ff6f30b0000 + b76874 Palworld-Win64-Shipping 0x00007ff6f30b0000 + b80dfc Palworld-Win64-Shipping 0x00007ff6f30b0000 + b80e7a Palworld-Win64-Shipping 0x00007ff6f30b0000 + b81c7c Palworld-Win64-Shipping 0x00007ff6f30b0000 + b8a8b4 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 6076172 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</PCallStack>
+		<PCallStackHash>4D8E3E5E7E854B536626AEF3E2D922A17283D2E2</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30c016c Palworld-Win64-Shipping 0x00007ff6f30b0000 + 60ef81e VCRUNTIME140 0x00007ffc87c90000 + f47f ntdll 0x00007ffca1300000 + 16796f ntdll 0x00007ffca1300000 + 76397 ntdll 0x00007ffca1300000 + 1672ae Palworld-Win64-Shipping 0x00007ff6f30b0000 + 323d559 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 4c61095 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3164da9 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 32337f5 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 323500f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 323b0fd Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3235f08 UE4SS 0x00007ffc33cf0000 + 90df02 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3232a96 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 323b97b Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3235f08 UE4SS 0x00007ffc33cf0000 + 90df02 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3235e65 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3164da9 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3235d1d UE4SS 0x00007ffc33cf0000 + 90dc99 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 4ad7c62 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 54019a3 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 4fc463e Palworld-Win64-Shipping 0x00007ff6f30b0000 + 4e397cc Palworld-Win64-Shipping 0x00007ff6f30b0000 + b76874 Palworld-Win64-Shipping 0x00007ff6f30b0000 + b80dfc Palworld-Win64-Shipping 0x00007ff6f30b0000 + b80e7a Palworld-Win64-Shipping 0x00007ff6f30b0000 + b81c7c Palworld-Win64-Shipping 0x00007ff6f30b0000 + b8a8b4 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 6076172 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>9384</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18916</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21312</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12360</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18700</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14484</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>38540</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22108</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31004</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24116</ThreadID>
+				<ThreadName>Background Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>30484</ThreadID>
+				<ThreadName>Background Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>38152</ThreadID>
+				<ThreadName>Background Worker #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13524</ThreadID>
+				<ThreadName>Background Worker #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>34856</ThreadID>
+				<ThreadName>Background Worker #12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f87a7d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f88840 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f77d00 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26804</ThreadID>
+				<ThreadName>Background Worker #13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5b7e Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>33076</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5b7e Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>30488</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>23972</ThreadID>
+				<ThreadName>Reserve Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10668</ThreadID>
+				<ThreadName>Reserve Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>33252</ThreadID>
+				<ThreadName>Reserve Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>37736</ThreadID>
+				<ThreadName>Reserve Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25084</ThreadID>
+				<ThreadName>Reserve Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3480</ThreadID>
+				<ThreadName>Reserve Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13140</ThreadID>
+				<ThreadName>Reserve Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31740</ThreadID>
+				<ThreadName>Reserve Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3604</ThreadID>
+				<ThreadName>Reserve Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7768</ThreadID>
+				<ThreadName>Reserve Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>240</ThreadID>
+				<ThreadName>Reserve Worker #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9704</ThreadID>
+				<ThreadName>Reserve Worker #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>33260</ThreadID>
+				<ThreadName>Reserve Worker #12</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f76343 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>25136</ThreadID>
+				<ThreadName>Reserve Worker #13</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 49bac8c Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17488</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1638b4 ntdll 0x00007ffca1300000 + ce134 KERNELBASE 0x00007ffc9e7c0000 + 246a1 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 41ada21 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5836</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 138d636 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>27300</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3094bce Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5d84 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>26768</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5b7e Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18292</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5b7e Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>31824</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5b7e Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>37172</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2fd5b7e Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5900</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f84bdb Palworld-Win64-Shipping 0x00007ff6f30b0000 + 43b053b Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>30796</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 2f84bdb Palworld-Win64-Shipping 0x00007ff6f30b0000 + 43af7c9 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 43b0597 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>22348</ThreadID>
+				<ThreadName>RenderThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1638b4 ntdll 0x00007ffca1300000 + ce134 KERNELBASE 0x00007ffc9e7c0000 + 246a1 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cff3a Palworld-Win64-Shipping 0x00007ff6f30b0000 + 43b0637 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>18064</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 3142fb9 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 313f94a Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21340</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1638b4 ntdll 0x00007ffca1300000 + ce134 KERNELBASE 0x00007ffc9e7c0000 + 246a1 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cff3a Palworld-Win64-Shipping 0x00007ff6f30b0000 + 53fbc41 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>38664</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 46393b7 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>17984</ThreadID>
+				<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 46395ea Palworld-Win64-Shipping 0x00007ff6f30b0000 + 463951e Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>24028</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ffca1300000 + 1632b4 KERNELBASE 0x00007ffc9e7c0000 + 1895f Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30d113d Palworld-Win64-Shipping 0x00007ff6f30b0000 + 31ce0f2 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30cf517 Palworld-Win64-Shipping 0x00007ff6f30b0000 + 30ca831 KERNEL32 0x00007ffca0050000 + 2e8d7 ntdll 0x00007ffca1300000 + 8d9c</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>21532</ThreadID>
+				<ThreadName>FAsyncPurge</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638946780994230000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 11 (24H2) [10.0.26100.6584]  64b]</PlatformFullName>
+		<CPUBrand>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Program Files (x86)\Steam\steamapps\common\Palworld\Pal\Binaries\Win64\tbb.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Pal\Binaries\Win64\Palworld-Win64-Shipping.exe
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Pal\Plugins\DLSS\Binaries\ThirdParty\Win64\nvngx_dlss.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\libcef.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\libGLESv2.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\d3dcompiler_47.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Pal\Binaries\Win64\ue4ss\UE4SS.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\chrome_elf.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\CEF3\Win64\libEGL.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Steamworks\Steamv153\Win64\steam_api64.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\NVIDIA\GPUDirect\Win64\dvp.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll
+C:\Program Files (x86)\Steam\steamapps\common\Palworld\Pal\Binaries\Win64\dwmapi.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Aftermath>false</RHI.Aftermath>
+		<RHI.IsGPUOverclocked>false</RHI.IsGPUOverclocked>
+		<RHI.RHIName>D3D11</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce RTX 3050 Ti Laptop GPU</RHI.AdapterName>
+		<RHI.UserDriverVersion>581.29</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>32.0.15.8129</RHI.InternalDriverVersion>
+		<RHI.DriverDate>9-5-2025</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>25A0</RHI.DeviceId>
+		<DeviceProfile.Name>Windows</DeviceProfile.Name>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+	</EngineData>
+	<GameData>
+		<__sentry>{ &quot;tags&quot;: { &quot;pak_files&quot;: &quot;CurveVector_DarkMechaDragon_FunnelLaser_0123_P.pak, ZFrancisLouis_EPWV_P.pak, Z3D_Lovander_AIO_P.pak, YakushimaMonster002Ranch_P.pak, YakushimaMonster001Ranch_P.pak, WizardOwlRanch_P.pak, William_MoreHairs_P.pak, William_MoreEyes_P.pak, WBP_PalWorlSkillFruitFarm_P.pak, WBP_PalWorkProduct_P.pak, WBP_PalWorkPowerPlant_P.pak, WBP_PalWorkFarm_P.pak, WBP_PalWork_FishPond_P.pak, WBP_PalWork_Expedition_P.pak, WBP_PalWork_BreedFarm_P.pak, WBP_PalCraftInfo_P.pak, WBP_LabResearch_P.pak, WBP_Ingame_Incubator_Multiple_P.pak, vuxBaseIncreaseGradualx1_P.pak, UpgradePalsLV100_P.pak, TropicalOstrichRanch_P.pak, ThunderBirdRanch_P.pak, SuzakuRanch_P.pak, Suzaku_WaterRanch_P.pak, SnowPeafowlRanch_P.pak, SexyXenovander_SFW_P.pak, SexyXenovander_NSFW_Nude_P.pak, SexyXenolord_SFW_P.pak, SexyXenolord_SFW_BigBoobs_P.pak, SexyXenolord_NSFW_P.pak, SexyXenolord_NSFW_BigBoobs_P.pak, SexyWarsect_WarsectTerra_NSFW_Nude_P.pak, SexyVanwyrm_VanwyrmCryst_NSFW_Nude_P.pak, SexyTombat_SFW_Pajamas_Phy_P.pak, SexyTombat_SFW_Nude_Phy_P.pak, SexyTombat_NSFW_Nude_Phy_P.pak, SexyThickElizaBee_SFW_Underwear_P.pak, SexyThickElizaBee_SFW_Underwear_Glossy_P.pak, SexyThickElizaBee_SFW_Open_Skirt_P.pak, SexyThickElizaBee_SFW_Closed_Skirt_P.pak, SexyThickElizaBee_NSFW_Open_Skirt_P.pak, SexyThickElizaBee_NSFW_Nude_P.pak, SexyThickElizaBee_NSFW_Nude_Glossy_P.pak, SexyThickElizaBee_NSFW_Closed_Skirt_P.pak, SexyThickElizaBee_SFW_Underwear_Tailless_P.pak, SexyThickElizaBee_SFW_Underwear_Tailless_Glossy_P.pak, SexyThickElizaBee_SFW_Open_Skirt_Tailless_P.pak, SexyThickElizaBee_SFW_Closed_Skirt_Tailless_P.pak, SexyThickElizaBee_NSFW_Open_Skirt_Tailless_P.pak, SexyThickElizaBee_NSFW_Nude_Tailless_P.pak, SexyThickElizaBee_NSFW_Nude_Tailless_Glossy_P.pak, SexyThickElizaBee_NSFW_Closed_Skirt_Tailless_P.pak, SexyThiccWixen_WixenNoct_SFW_Dress+Leggings_P.pak, SexyThiccWixen_WixenNoct_NSFW_Open_Robe_P.pak, SexyThiccWixen_WixenNoct_NSFW_Nude_P.pak, SexyThiccWixen_WixenNoct_NSFW_Dress+Leggings_P.pak, SexyThiccLyleenStatue_NSFW_Nude_P.pak, SexyThiccLyleen_LyleenNoct_NSFW_Nude_P.pak, SexyThiccDazzi_DazziNoct_SFW_NSFW_Alt_P.pak, SexyThiccBeegarde_SFW_Underwear_Tailless_P.pak, SexyThiccBeegarde_SFW_Underwear_Tailless_Glossy_P.pak, SexyThiccBeegarde_SFW_Underwear_P.pak, SexyThiccBeegarde_SFW_Underwear_Glossy_P.pak, SexyThiccBeegarde_SFW_OpenSkirt_Tailless_P.pak, SexyThiccBeegarde_SFW_OpenSkirt_P.pak, SexyThiccBeegarde_SFW_ClosedSkirt_Tailless_P.pak, SexyThiccBeegarde_SFW_ClosedSkirt_P.pak, SexyThiccBeegarde_NSFW_OpenSkirt_Tailless_P.pak, SexyThiccBeegarde_NSFW_OpenSkirt_P.pak, SexyThiccBeegarde_NSFW_Nude_Tailless_P.pak, SexyThiccBeegarde_NSFW_Nude_Tailless_Glossy_P.pak, SexyThiccBeegarde_NSFW_Nude_P.pak, SexyThiccBeegarde_NSFW_Nude_Glossy_P.pak, SexyThiccBeegarde_NSFW_ClosedSkirt_Tailless_P.pak, SexyThiccBeegarde_NSFW_ClosedSkirt_P.pak, SexyThiccAnubis_SFW_Underwear_P.pak, SexyThiccAnubis_SFW_Underwear_NewHair_P.pak, SexyThiccAnubis_SFW_Thong_P.pak, SexyThiccAnubis_SFW_Thong_New_Hair_P.pak, SexyThiccAnubis_SFW_P.pak, SexyThiccAnubis_SFW_NewHair_P.pak, SexyThiccAnubis_lightbrownNip_NSFW_Underwear_P.pak, SexyThiccAnubis_LightbrownNip_NSFW_Underwear_NewHair_P.pak, SexyThiccAnubis_lightbrownNip_NSFW_Thong_P.pak, SexyThiccAnubis_LightbrownNip_NSFW_Thong_NewHair_P.pak, SexyThiccAnubis_lightbrownNip_NSFW_Nude_P.pak, SexyThiccAnubis_lightbrownNip_NSFW_Nude_NewHair_P.pak, SexyThiccAnubis_DarkbrownNip_NSFW_Underwear_P.pak, SexyThiccAnubis_DarkbrownNip_NSFW_Underwear_NewHair_P.pak, SexyThiccAnubis_DarkbrownNip_NSFW_Thong_P.pak, SexyThiccAnubis_DarkbrownNip_NSFW_Thong_NewHair_P.pak, SexyThiccAnubis_DarkbrownNip_NSFW_Nude_P.pak, SexyThiccAnubis_DarkbrownNip_NSFW_Nude_NewHair_P.pak, SexyStatue_AllinOne_NSFW_P.pak, SexySphinx_Female_SFW_P.pak, SexySphinx_Female_NSFW_P.pak, SexySiberlyx_SFW_Underwear_P.pak, SexySiberlyx_SFW_Kimono_P.pak, SexySiberlyx_NSFW_Nude_P.pak, SexySiberlyx_NSFW_Kimono_P.pak, SexyShadowbeak_NSFW_ChestBoobs_P.pak, SexyRobinquill_Terra_SFW_SmallBreasts_P.pak, SexyRobinquill_Terra_SFW_BigBreasts_P.pak, SexyRobinquill_Terra_NSFW_NoCape_Nude_SmallBreasts_P.pak, SexyRobinquill_Terra_NSFW_NoCape_Nude_BigBreasts_P.pak, SexyRobinquill_Terra_NSFW_Cape_Nude_SmallBreasts_P.pak, SexyRobinquill_Terra_NSFW_Cape_Nude_BigBreasts_P.pak, SexyRelaxaurus_RelaxaurusLux_NSFW_P.pak, SexyQuivern_QuivernBotan_NSFW_P.pak, SexyPetallia_SFW_Shirt+Leggings_P.pak, SexyPetallia_SFW_Pajamas_P.pak, SexyPetallia_SFW_Open_Skirt_Pajamas_P.pak, SexyPetallia_SFW_Open_Skirt_P.pak, SexyPetallia_SFW_Closed_Skirt_Pajamas_P.pak, SexyPetallia_SFW_Closed_Skirt_P.pak, SexyPetallia_NSFW_Open_Skirt_P.pak, SexyPetallia_NSFW_Nude_P.pak, SexyPetallia_NSFW_Closed_Skirt_P.pak, SexyPalumba_NSFW_Nude_P.pak, SexyPaladius_Necromus_SFW_P.pak, SexyPaladius_Necromus_NSFW_MareBits_P.pak, SexyOrserk_SFW_Nude_P.pak, SexyOrserk_NSFW_Nude_P.pak, SexyNyafia_NSFW_Nude_P.pak, SexyNox_NSFW_Nude_P.pak, SexyNitewing_NSFW_P.pak, SexyNeptilius_NSFW_Nude_P.pak, SexyMozzarina_SFW_P.pak, SexyMozzarina_SFW_NoCowBell_EarTag_P.pak, SexyMozzarina_NSFW_Nude_P.pak, SexyMozzarina_NSFW_Nude_NoCowBell_EarTag_P.pak, SexyMossanda_MossandaLux_NSFW_Nude_P.pak, SexyMau_MauCryst_SFW_Underwear_P.pak, SexyMau_MauCryst_SFW_Underwear_Hair_P.pak, SexyMau_MauCryst_NSFW_Nude_P.pak, SexyMau_MauCryst_NSFW_Nude_Hair_P.pak, SexyMammorest_MammorestCryst_NSFW_Nude_P.pak, SexyLyleenNoct_SFW_Underwear_P.pak, SexyLyleenNoct_SFW_Open_Skirt_P.pak, SexyLyleenNoct_SFW_Closed_Skirt_P.pak, SexyLyleenNoct_NSFW_Open_Skirt_P.pak, SexyLyleenNoct_NSFW_Nude_P.pak, SexyLyleenNoct_NSFW_Closed_Skirt_P.pak, SexyLyleen_SFW_Underwear_P.pak, SexyLyleen_SFW_Open_Skirt_P.pak, SexyLyleen_SFW_Closed_Skirt_P.pak, SexyLyleen_NSFW_Open_Skirt_P.pak, SexyLyleen_NSFW_Nude_P.pak, SexyLyleen_NSFW_Closed_Skirt_P.pak, SexyLunaris_SFW_TankTop+Pantie_P.pak, SexyLunaris_SFW_Sweater_P.pak, SexyLunaris_SFW_Maid_P.pak, SexyLunaris_SFW_BunnySuit_P.pak, SexyLunaris_NSFW_Sweater_Pink_G_P.pak, SexyLunaris_NSFW_Sweater_P.pak, SexyLunaris_NSFW_Nude_Pink_G_P.pak, SexyLunaris_NSFW_Nude_P.pak, SexyLunaris_NSFW_Maid_Pink_G_P.pak, SexyLunaris_NSFW_Maid_P.pak, SexyLunaris_NSFW_Lingerie_P.pak, SexyLifmunkEffigyStatue_NSFW_Nude_P.pak, SexyLifmunk_NSFW_Nude_P.pak, SexyLeezPunk_Leezpunk_ignis_SFW_P.pak, SexyLeezPunk_Leezpunk_Ignis_NSFW_Nude_P.pak, SexyLeezPunk_Leezpunk_Ignis_NSFW_HoodieNipOut_P.pak, SexyLeezPunk_Leezpunk_Ignis_NSFW_Hoodie_BreastOut_P.pak, SexyLamball_SFW_NSFW_Alt_SFW_intro_P.pak, SexyLamball_SFW_NSFW_Alt_NSFW_intro_P.pak, SexyKnocklem_SFW_P.pak, SexyKnocklem_NSFW_Nude_P.pak, SexyKitsun_KitsunNoct_NSFW_Nude_P.pak, SexyJormuntide_JormuntideIgnis_NSFW_Nude_P.pak, SexyJetragon_NSFW_Nude_ThicLegs_P.pak, SexyIncineram_SFW_SmallFur_Nude_Phy_P.pak, SexyIncineram_SFW_NormallFur_Nude_Phy_P.pak, SexyIncineram_NSFW_SmallFur_Nude_Phy_P.pak, SexyIncineram_NSFW_NormallFur_Nude_Phy_P.pak, SexyHelzephyr_HelzephyrLux_SFW_P.pak, SexyHelzephyr_HelzephyrLux_NSFW_Nude_P.pak, SexyGorirat_GoriratTerra_NSFW_Nude_P.pak, SexyGobfin_GobfinIgnis_SFW_Nude_P.pak, SexyGobfin_GobfinIgnis_NSFW_Nude_P.pak, SexyGaleClawWhite_SFW_Nude_Glider_All_P.pak, SexyGaleClawWhite_SFW_Nude_FaceButt_Glider_All_P.pak, SexyGaleClawWhite_NSFW_Nude_Glider_All_P.pak, SexyGaleClawWhite_NSFW_Nude_FaceButt_Glider_All_P.pak, SexyGaleClaw_SFW_Nude_Glider_All_P.pak, SexyGaleClaw_SFW_Nude_FaceButt_Glider_All_P.pak, SexyGaleClaw_NSFW_Nude_Glider_All_P.pak, SexyGaleClaw_NSFW_Nude_FaceButt_Glider_All_P.pak, SexyFoxSparks_FoxSparksCryst_SFW_Nude_P.pak, SexyFoxSparks_FoxSparksCryst_SFW_Nude_BigBreasts_P.pak, SexyFoxSparks_FoxSparksCryst_NSFW_Nude_P.pak, SexyFoxSparks_FoxSparksCryst_NSFW_Nude_BigBreasts_P.pak, SexyFoxcicle_NSFW_Nude_P.pak, SexyFelbat_SFW_P.pak, SexyFelbat_SFW_Cleavage_P.pak, SexyFelbat_NSFW_P.pak, SexyFastTravelStatue_NSFW_P.pak, SexyFaleris_FalerisAqua_NSFW_Nude_P.pak, SexyElphidran_ElphidranAqua_NSFW_P.pak, SexyDogen_SFW_SexyKimono_Red_P.pak, SexyDogen_SFW_SexyKimono_Black_P.pak, SexyDogen_SFW_P.pak, SexyDogen_NSFW_SexyKimono_Red_P.pak, SexyDogen_NSFW_SexyKimono_Black_P.pak, SexyDogen_NSFW_Nude_P.pak, SexyDogen_NSFW_Lingerie_P.pak, SexyDinossom_Dinossom_Lux_NSFW_P.pak, SexyDeadream_NSFW_OpenPantie_NoBra_P.pak, SexyDeadream_NSFW_OpenPantie_NoBra_NoSkirt_P.pak, SexyDaedream_SFW_P.pak, SexyDaedream_SFW_NoSkirt_P.pak, SexyDaedream_NSFW_P.pak, SexyDaedream_NSFW_NoPantie_NoBra_P.pak, SexyCryolinx_CryolinxTerra_NSFW_Nude_P.pak, SexyCremis_NSFW_Nude_P.pak, SexyChikipi_NSFW_Nude_P.pak, SexyCawgnito_NSFW_Nude_P.pak, SexyCawgnito_NSFW_Nude_NoCape_P.pak, SexyCattivaSunglassesSkin_NSFW_Nude_P.pak, SexyCattiva_NSFW_Nude_P.pak, SexyBroncherry_BroncherryAqua_NSFW_Nude_P.pak, SexyBristla_NSFW_Nude_OutVines_LegsOut_P.pak, SexyBristla_NSFW_Nude_OpenVines_P.pak, SexyBristla_NSFW_Nude_NoVines_P.pak, SexyBristla_NSFW_Nude_InsideVines_P.pak, SexyBristla_NSFW_Nude_InsideVines_LegsOut_P.pak, SexyBlazamut_BlazamutRyu_NSFW_P.pak, SexyBlackDragon_P.pak, SexyAzurobe_AzurobeCryst_NSFW_Nude_P.pak, SexyAstegon_SFW_P.pak, SexyAstegon_NSFW_Nude_P.pak, RedArmorBirdRanch_P.pak, Reaper_LovanderBreeding_B_St_P.pak, ProperBuildingSound_P.pak, PrimaFusionMountsV181_P.pak, Predator Pals No Sound Aura_P.pak, PinkLizardRanch_P.pak, OilDrillSound717763075_P.pak, NitewingRanch_P.pak, New Sale Items in All Merchants_P.pak, MysteryMaskRanch_P.pak, MushroomDragonRanch_P.pak, MountedAdditions_P.pak, mEi_LargeFacilitiesAssignment_P.pak, MayoSplash_Lovander_TacticalCloth_SFW_P.pak, MayoSplash_Lovander_SmallChetsFur_SFW_P.pak, MayoSplash_Lovander_SmallChetsFur_NSFW_P.pak, MayoSplash_Lovander_BigChetsFur_SFW_P.pak, MayoSplash_Lovander_BigChetsFur_NSFW_P.pak, Lucky Pals No Sound Shining_P.pak, KinshipSkillfruitTrees_P.pak, JetDragonRanch_P.pak, Jamesio_Penguin_Girl_NSFW_P.pak, Jamesio_LavaGirl_V2_P.pak, Jamesio_LavaGirl_NSFW_P.pak, Jamesio_CuteMole_Jamesio_V1_P.pak, HorusRanch_P.pak, Horus_WaterRanch_P.pak, -15dBVampiricHeal588331637_P.pak, HadesBirdRanch_P.pak, HadesBird_ElectricRanch_P.pak, GrimGirlRanch_P.pak, GliderRestoreV136_P.pak, FemaleSyndicateAltermatic_P.pak, FemaleGoldMarketDealerThick_P.pak, FemaleFPAAltermatic_P.pak, FemaleBlackMarketDealerThick_P.pak, FeatherOstrichRanch_P.pak, FarmInventory_P.pak, EagleRanch_P.pak, DekXMOG_MatsNTex_P.pak, DarkMechaDragonRanch_P.pak, DarkCrowRanch_P.pak, CRYOPOD_P.pak, AM_Textures_SmoothSeams_P.pak, AM_Jiggle_Mild_P.pak, AM_HeatResistantGear_Vanilla_P.pak, AM_Heads_P.pak, AM_DefaultGear_Vanilla_P.pak, AM_ColdResistantGear_Vanilla_P.pak, AM_Base_Loincloth_KeepShorts_P.pak, Catch All RAID Bosses_P.pak, Catch All PREDATOR Bosses_P.pak, Busty_PalGal_A_1.1.0_P.pak, BuildFastTravelShrines_P.pak, BP_SkillEffect_Unique_DarkMechaDragon_FunnelLaser_Laser_P.pak, BP_SkillEffect_StarMine_Mine_P.pak, BP_MetalDetector_P.pak, BP_Arrow_P.pak, BNL_P.pak, BlackGriffonRanch_P.pak, BirdDragonRanch_P.pak, BirdDragon_IceRanch_P.pak, AM_HeatResistantGear_Vanilla_P.pak, AM_DefaultGear_Vanilla_P.pak, AM_ColdResistantGear_Vanilla_P.pak, 13_SexyBellanoirLibero_NSFW_Nude_P.pak, 12_SexyBellanoirLibero_NSFW_ClosedSkirt_OpenSexyJacket_P.pak, 11_SexyBellanoirLibero_NSFW_OpenSkirt_NoPantie_OpenSexyJacket_P.pak, 10_SexyBellanoirLibero_NSFW_OpenSkirt_OpenSexyJacket_P.pak, 09_SexyBellanoirLibero_NSFW_OpenSkirt_NoPantie_SexyJacket_P.pak, 08_SexyBellanoirLibero_NSFW_OpenSkirt_NoPantie_NormalJacket_P.pak, 07_SexyBellanoirLibero_SFW_OpenSkirt_Corset_P.pak, 06_SexyBellanoirLibero_SFW_ClosedSkirt_Corset_P.pak, 05_SexyBellanoirLibero_SFW_Underwear_P.pak, 04_SexyBellanoirLibero_SFW_OpenSkirt_SexyJacket_P.pak, 03_SexyBellanoirLibero_SFW_ClosedSkirt_SexyJacket_P.pak, 02_SexyBellanoirLibero_SFW_OpenSkirt_NormalJacket_P.pak, 01_SexyBellanoirLibero_SFW_ClosedSkirt_NormalJacket_P.pak, 11_SexyBellanoirLibero_NSFW_OpenNewSkirt_NoPantie_Corset_P.pak, 10_SexyBellanoirLibero_NSFW_OpenNewSkirt_NoPantie_OpenSexyJacket_P.pak, 09_SexyBellanoirLibero_NSFW_OpenNewSkirt_OpenSexyJacket_P.pak, 08_SexyBellanoirLibero_NSFW_ClosedNewSkirt_NoPantie_OpenSexyJacket_P.pak, 07_SexyBellanoirLibero_NSFW_ClosedNewSkirt_OpenSexyJacket_P.pak, 06_SexyBellanoirLibero_SFW_OpenNewSkirt_Corset_P.pak, 05_SexyBellanoirLibero_SFW_ClosedNewSkirt_Corset_P.pak, 04_SexyBellanoirLibero_SFW_OpenNewSkirt_SexyJacket_P.pak, 03_SexyBellanoirLibero_SFW_ClosedNewSkirt_SexyJacket_P.pak, 02_SexyBellanoirLibero_SFW_OpenNewSkirt_NormalJacket_P.pak, 01_SexyBellanoirLibero_SFW_ClosedNewSkirt_NormalJacket_P.pak, 13_SexyBellanoir_NSFW_Nude_P.pak, 12_SexyBellanoir_NSFW_ClosedSkirt_OpenSexyJacket_P.pak, 11_SexyBellanoir_NSFW_OpenSkirt_NoPantie_OpenSexyJacket_P.pak, 10_SexyBellanoir_NSFW_OpenSkirt_OpenSexyJacket_P.pak, 09_SexyBellanoir_NSFW_OpenSkirt_NoPantie_SexyJacket_P.pak, 08_SexyBellanoir_NSFW_OpenSkirt_NoPantie_NormalJacket_P.pak, 07_SexyBellanoir_SFW_OpenSkirt_Corset_P.pak, 06_SexyBellanoir_SFW_ClosedSkirt_Corset_P.pak, 05_SexyBellanoir_SFW_Underwear_P.pak, 04_SexyBellanoir_SFW_OpenSkirt_SexyJacket_P.pak, 03_SexyBellanoir_SFW_ClosedSkirt_SexyJacket_P.pak, 02_SexyBellanoir_SFW_OpenSkirt_NormalJacket_P.pak, 01_SexyBellanoir_SFW_ClosedSkirt_NormalJacket_P.pak, SexyIncineramNoct_SFW_SmallFur_Nude_Phy_P.pak, SexyIncineramNoct_SFW_NormallFur_Nude_Phy_P.pak, SexyIncineramNoct_NSFW_SmallFur_Nude_Phy_P.pak, SexyIncineramNoct_NSFW_NormallFur_Nude_Phy_P.pak, AboobiesVH_P.pak, AAO_UJPB_PropsAll_P.pak, AAO_PalCafe_P.pak, AAO_BldgRevamped_Props_P.pak, _GowlyLovander1.0Pasties_P.pak, _GowlyLovander1.0_P.pak, _GowlyKatressV1.0_P.pak, _GowlyKatress1.0Clothed_P.pak, 11_SexyBellanoir_NSFW_OpenNewSkirt_NoPantie_Corset_P.pak, 10_SexyBellanoir_NSFW_OpenNewSkirt_NoPantie_OpenSexyJacket_P.pak, 09_SexyBellanoir_NSFW_OpenNewSkirt_OpenSexyJacket_P.pak, 08_SexyBellanoir_NSFW_ClosedNewSkirt_NoPantie_OpenSexyJacket_P.pak, 07_SexyBellanoir_NSFW_ClosedNewSkirt_OpenSexyJacket_P.pak, 07.SexyBushi_Female_NSFW_Topless_P.pak, 06_SexyBellanoir_SFW_OpenNewSkirt_Corset_P.pak, 05_SexyBellanoir_SFW_ClosedNewSkirt_Corset_P.pak, 04_SexyBellanoir_SFW_OpenNewSkirt_SexyJacket_P.pak, 03_SexyBellanoir_SFW_ClosedNewSkirt_SexyJacket_P.pak, 02_SexyBellanoir_SFW_OpenNewSkirt_NormalJacket_P.pak, 02.SexyVerdash_NSFW_Female_P.pak, 02.SexyLoupmoon_Female_NSFW_P.pak, 01_SexyBellanoir_SFW_ClosedNewSkirt_NormalJacket_P.pak, -10dBVampiricHeal588331637_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, William_MoreCampLevels_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzerinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, ZZ_LadyM_MozzarinaColorful603_P.pak, PalBackMusic_P.pak, ExStatusMaximum_P.pak, DekXMOG_P.pak, DekPalDetails_P.pak, DekModConfigMenu_P.pak, Default&apos;sFemalePalTraderWithStrapOn_P.pak, Default&apos;sFemalePalTraderWithBackpackAndStrapOn_P.pak, BetterArmor_P.pak, BakkasVCustomSkeletons_P.pak, Pal-Windows.pak, Z3D_Selyne_Alter.pak, Z3D_Bellanoir_AIO.pak, Z3D_ALT_Lily_Skins.pak, Z3D_AIO_Lyleen_Altermatic.pak, SexyXenolord_SFW_NSFW_Alt.pak, SexyXenogard_SFW_NSFW_Alt.pak, SexyTarantris_SFW_NSFW_Alt.pak, SexySplatterina_SFW_NSFW_Alt.pak, SexyPrunelia_SFW_NSFW_Alt.pak, SexyNyafia_SFW_NSFW_Alt.pak, SexyNitemery_SFW_NSFW_Alt.pak, SexyGrizzbolt_SFW_NSFW_Alt.pak, SexyFlopie_SFW_NSFW_Alt.pak, SexyBastigor_SFW_NSFW_Alt.pak, AccessoryCondenserIcons.pak, AccessoryCondenserIcons.pak, AccessoryCondenserIcons.pak, PalCumEffects.pak, PalCumEffects.pak, DAPAL_Reptyro_ALTER.pak, DAPAL_Broncherry_ALTER.pak, AccessoryCondenserIcons.pak, Z3NSoundPack.pak, Z3N_Anim_PackNew.pak, Z3N_Anim_Pack.pak, Z3N_Anim_PackNew.pak, Z3N_Anim_Pack.pak, WompyWompRandomSexy.pak, UniPalUI.pak, UnfairJackal_Pals_Menar_fix.pak, UnfairJackal_Pals.pak, TemTemAnims.pak, StorageIntergration.pak, SpiritsNaughtyHumanAnims.pak, SibelyxAnimations_Public.pak, Shining-Luckies.pak, RotateIt.pak, RemotePalBox.pak, RemoteMonitoringStand.pak, RemoteItemRetrievalMachine.pak, PlayerBreeder.pak, PalSoundBank.pak, PalIVs.pak, PalInfo.pak, Palicious.pak, PalEggInfo.pak, MenarAnimPak.pak, LurkersAnimPak.pak, LurkersAnimPak-Pals.pak, Lemonlord_anim_pak.pak, LadyM_Tbox_Dinossom604.pak, LadyM_MozzerinaColorful603.pak, InhumanityLib.pak, HighGuardAnims.pak, GreyuAnimPakCustomMesh.pak, GreyuAnimPak.pak, Default&apos;sFemalePalTrader.pak, CursedFemaleGumoss.pak, CatchAndRelease.pak, BakkasVSkin.pak, BakkasAnimPak.pak, AutoHatch.pak, AltermaticForcePersist.pak, Altermatic.pak, AC_SugarCakeExtension.pak, AC_AnimFramework.pak, SpiritsNaughtyHumanAnims.pak, WompyWompRandomSexy.pak, UniPalUI.pak, Palicious.pak, Altermatic.pak, AC_SugarCakeExtension.pak, AC_AnimFramework.pak, &quot;, &quot;is_use_mods&quot;: &quot;true&quot;, &quot;use_bad_driver&quot;: &quot;false&quot;, &quot;version&quot;: &quot;0.6.6.79318&quot;, &quot;hostname&quot;: &quot;DENRANGON-OVER&quot;,&quot;callstackhash&quot;: &quot;B93E60C93A2C73200E78186E0BD35C526742C3FA&quot;,&quot;hostname&quot;: &quot;DENRANGON-OVER&quot;,&quot;revision&quot;: &quot;79318&quot;, &quot;build_config&quot;: &quot;shipping&quot;, &quot;platform&quot;: &quot;Windows&quot;, &quot;engine_mode&quot;: &quot;Game&quot;, &quot;session_id&quot;: &quot;steam_76561198317946922_1759081226&quot;, &quot;user_id&quot;: &quot;steam_76561198317946922&quot;, &quot;savedata_rev&quot;: &quot;79318&quot; } }</__sentry>
+	</GameData>
+</FGenericCrashContext>
